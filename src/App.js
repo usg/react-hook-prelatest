@@ -17,6 +17,7 @@ const App = () => {
       console.log("clicked on old:" + count);
       console.log("clicked on pre:" + preCountUseRef.current);
       console.log("clicked on latest:" + latestCount.current);
+      alert(latestCount.current);
     }, 3000);
   }
 
